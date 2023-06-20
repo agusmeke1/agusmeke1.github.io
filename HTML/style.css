@@ -27,7 +27,7 @@ nav{
 
 header{
     display: flex;
-    justify-content: right;
+    justify-content: left;
     background-color: rgb(70,65,59);
     width: 100%;
     font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
