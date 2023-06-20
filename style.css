@@ -40,7 +40,6 @@ header ul{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    justify-content: left;
 }
 
 header ul li{
