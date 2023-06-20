@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Raleway&display=swap');
+
+body{
+    background-color: rgba(248,248,238,255);
+    margin: 0;
+}
+
+button img {
+    width: 40px;
+    background-color: rgb(70,65,59);
+}
+
+button{
+    background-color: rgb(70,65,59) !important;
+    border: none !important;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+ }
+
+nav{
+    display: none;
+}
+
+header{
+    display: flex;
+    justify-content: right;
+    background-color: rgb(70,65,59);
+    width: 100%;
+    font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(248,248,238,255);
+    font-weight: bold;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+header ul li{
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 rgba(248,248,238,255);
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+a:link {
+    text-decoration: none;
+    color: rgba(248,248,238,255);
+}
+a:visited {
+    text-decoration: none;
+    color: rgba(248,248,238,255);
+}
+a:hover{
+    color: rgb(70,65,59);
+    box-shadow: inset 200px 0 0 0 rgba(248,248,238,255);
+}
+
+#logo{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 36px;
+    margin-right: 36px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0%;
+}
+
+#productos{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.polaroid {
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+  
+.polaroid img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  
+}
+  
+.polaroid .descripcion {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+  
+  
+.polaroid .precio {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+}
+
+.subtitulo {
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+}
+
+li{
+    font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#wpp{
+    color: rgb(70,65,59);
+    text-decoration: underline;
+}
+
+
+.aclaración {
+    text-align: left;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(70,65,59);
+    width: 100%;
+    font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(248,248,238,255);
+}
+
+h4{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: medium;
+}
