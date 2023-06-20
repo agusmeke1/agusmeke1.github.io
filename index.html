@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Aura Bags SA</title>
+</head>
+<body>
+
+  <header>
+    <nav id="nav">
+      <ul>
+        <li><a href="./index.html">INICIO</a></li>
+        <li><a href="#productos">PRODUCTOS</a></li>
+        <li><a href="#pedidos">PEDIDOS</a></li>
+        <li><a href="https://wa.me/5493705017296/?text=Hola%20me%20encantan%20las%20tote.%20Quiero%20comprar%20...">WHATSAPP</a></li>
+      </ul>
+    </nav>
+    <button onclick='muestra_oculta("nav")' class="btn btn-primary"><img src="./imagenes/icono_hamburguesa.png" alt="..."></button>
+  </header>
+
+  <div class="container-fluid">
+    <img src="./imagenes/logo_aura_bags.jpg" alt="logo empresa" id="logo">
+  </div>
+
+  <div class="container-fluid"> 
+    <hr>
+    <h2>Lleva tu estilo a cualquier lugar.</h2>
+    <hr>
+  </div>
+
+  <div class="container-fluid">
+    <p>En Aura Bags nos dedicamos a la producción y venta de Tote Bags.</p> 
+    <p>Están hechas de tela tipo lienzo, son cortadas y cosidas por nosotros mismos.</p> 
+    <p>Son personalizables, con diseños pintados o bordados a mano.</p>
+    <p>Cada bolsa está hecha con mucho amor y dedicación.</p>
+  </div>
+  <div id="productos">
+    <h1>Nuestros productos</h1>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="polaroid">
+        <img src="./imagenes/tote_taylor.jpeg" alt="TOTE TAYLORS VERSION">
+        <p class="descripcion">Tote bag (taylor´s version)</p>
+        <p class="precio">$3700</p>
+      </div>
+      <div class="polaroid">
+        <img src="./imagenes/tote_sun.jpeg" alt="TOTE THE BEATLES">
+        <p class="descripcion">Tote bag "Here comes the sun"</p>
+        <p class="precio">$3000</p>
+      </div>
+      <div class="polaroid">
+        <img src="./imagenes/tote_flores.jpeg" alt="TOTE FLORES BORDADAS">
+        <p class="descripcion">Tote bag con flores bordadas</p>
+        <p class="precio">$3300</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="pedidos">
+      <hr><h1>
+        Información sobre pedidos
+      </h1>
+    <hr>
+      <p>
+        Los diseños mostrados anteriormente son a modo de muestra, las tote bag son completamente personalizables.
+      </p>
+      <p class="subtitulo">Tamaño</p>
+      <ul>
+        <li>Medida estándar: 36cm x 38cm</li>
+        <li>Medida alternativa: 40cm x 40cm</li>
+      </ul>
+    <p class="subtitulo">Bolsillos</p>
+    <ul>
+      <li>Sin bolsillo</li>
+      <li>Bolsillo interno</li>
+      <li>Bolsillo externo</li>
+    </ul>
+    <p class="subtitulo">Diseño</p>
+    <ul>
+      <li>Sin diseño</li>
+      <li>Diseño pintado</li>
+      <li>Diseño bordado</li>
+    </ul>
+    <p class="aclaración">
+      Enviar el pedido, junto con el diseño deseado a nuestro <a href="https://wa.me/5493705017296/?text=Hola%20me%20encantan%20las%20tote.%20Quiero%20comprar%20..." id="wpp">whatsapp.</a>
+    </p>
+  </div>
+
+  <footer>
+    <h4>Seguinos en nuestras redes @aurabags.sa.</h4>
+  </footer>
+  <script src="./main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
